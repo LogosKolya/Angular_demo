@@ -1,0 +1,27 @@
+.menu {
+  dislpay: flex;
+  height: 40px;
+}
+
+ul {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  margin: 0px;
+  width: 50px;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+  color: #666;
+}
+
+p {
+  display: flex;
+  width: 102px;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*# sourceMappingURL=under-header.component.css.map */

@@ -1,0 +1,30 @@
+<div class="main">
+
+    <div class="menu">
+      <div>
+        <p>Last works >>></p>
+      </div>
+
+      <div>
+
+        <ul>
+          <li *ngFor="let value of menu; index as i">
+            <a href={{value.link}} (click)="checked(i)"
+              [style.color]="value.checked ? 'rgb(45, 145, 45)' : 'rgb(65, 65, 204)'"
+              [style.text-decoration]="value.checked ? 'underline' : 'none'">{{value.name}}</a>
+          </li>
+        </ul>
+
+
+      </div>
+
+    </div>
+
+    <div class="menu">
+      <li>
+        <a href='/home' routerLinkActive="route-active" aria-current="page" (click)='nullingCheck()'>Back to >>> Home</a>
+      </li>
+    </div>
+
+  </div>
+  <hr>

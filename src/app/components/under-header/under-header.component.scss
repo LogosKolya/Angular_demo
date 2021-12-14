@@ -1,0 +1,36 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 10px 5px 0px 5px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+ul {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  margin: 0;
+}
+li {
+  list-style-type: none;
+  margin: 0 5px;
+}
+p {
+  margin: 0px;
+  padding: 0px;
+}
+a  {
+  color: rgb(65, 65, 204);
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(45, 145, 45);
+}
+a:active {
+  text-decoration: underline;
+}
